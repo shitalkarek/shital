@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shital_Karek</title>
+   
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+
+</head>
+
+<style>
+    
+</style>
+<body>
+    
+    <!-- nav bar starts -->
+
+    <nav id="desktop-nav">
+        <div class="logo">
+            <!-- <img src="/shital_name.png" alt="Shital" class="shital-name"> -->
+            <h2 class="shital-name">Shital's</h2>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <!-- <li><a href="#certificates">Certificates</a></li> -->
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <img 
+                    id="modeToggle"
+                    class="icon color-icon"
+                    src="/assets/theme-moon-dark.gif" 
+                    src-light="/assets/theme-moon-dark.gif"
+                    src-dark="/assets/theme-sun-light.gif"
+                   
+                    alt="color-theme-icon"
+                    >
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- nav bar ends  -->
+
+    <!-- ham burger -->
+
+    <nav id="hamburger-nav">
+        <div class="logo">
+            <!-- <img src="/shital_name.png" alt="Shital"> -->
+            <h2 class="shital-name">Shital's</h2>
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span> </span>  
+                <span> </span>
+                <span> </span>
+            </div>
+            
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience"onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#certificates"onclick="toggleMenu()">Certificates</a></li>
+                <li><a href="#projects"onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact"onclick="toggleMenu()">Contact</a></li>
+                <li>
+                    <img 
+                    id="modeToggle2"
+                    class="icon color-icon"
+                    src="/assets/theme-moon-dark.gif" 
+                    src-light="/assets/theme-moon-dark.gif"
+                    src-dark="/assets/theme-sun-light.gif"
+                   
+                    alt="color-theme-icon"
+                    >
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ham burger ends -->
+    
+    
+    <!-- sections starts -->
+
+
+    <!-- ......  hero section  starts   -->
+
+    <section id="profile">
+        <div class="section--pic-container hello">
+            <img src="/shital.jpg" alt="myPic" class="mypic">
+        </div>
+        <div class="section--text">
+            <p class="section--text--p1 hello">
+                Hello, I'm
+            </p>
+            <h1 class="title ">Shital Karek</h1>
+            <p class="section--text--p2 hello">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./shital-resume.pdf')"> Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <br>
+            
+        
+
+            <div id="socials-container">
+                
+                <img 
+                src="/linkedln.png" 
+                    src-light="/assets/dark-link.jpeg"
+                    src-dark="/assets/dark-link.jpeg"
+                alt="my Linkdln"
+                class="icon linkedin-icon" onclick="location.href='https://www.linkedin.com/in/shital-karek-1a9789229/'">
+
+                <img 
+                src="/assets/github-light-dark.png"
+                src-light="/assets/github-light.gif"
+                src-dark="/assets/github-light-dark.png" 
+                
+                alt="my github"
+                class="icon" onclick="location.href='https://github.com/shitalkarek'">
+
+                <img 
+                src="/best=insta.gif" 
+                src-light="/best=insta.gif"
+                src-dark="/best=insta.gif"
+                alt="my instagram"
+                class="icon" onclick="location.href='https://www.instagram.com/shital_karek_sk_/?hl=en'">
+               
+            </div>
+        </div>
+
+
+        
+        
+    </section>
+   <br>
+    <!-- ......  hero section  ends     -->
+
+
+
+
+
+    <!-- about section starts -->
+
+
+    <section id="about">
+
+        <p class="section--text--p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section--pic-container">
+                <img src="/about-pic.jpg" alt="about-me-pic"
+                class="about-pic">
+
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-containers">
+                        <img src="/assets/experience-light.gif"
+                        src-light="/assets/experience-light.gif"
+                        src-dark="/assets/experience-dark.gif"
+                         alt="experience" class="icon">
+                        <h3>Experience</h3>
+                        <p> Udemy Certified <br>
+                        Frontend Developer</p>
+                    </div>
+                    <div class="details-containers">
+                        <img src="/assets/education-dark-light.gif" 
+                        src-light="/assets/education-dark-light.gif"
+                        src-dark="/assets/education-dark-light.gif"
+                        alt="experience" class="icon">
+                        <h3>Education</h3>
+                        <p> B.Tech <br>
+                        Gita Autonomous College , BBSR<br> ( 2021 - 2025 )</p>
+
+                    </div>
+                </div>
+                <br>
+                <div class="text-container">
+                    <p>
+                        Hey, I'm Shital Karek, a passionate  B.Tech student at GITA Autonomous College Batch of(2021-2025). I'm all about coding in Java ☕ and crafting seamless user experiences as a Front-End Web Developer 💻. With a knack for innovation. Open to exciting collaborations and internships, let's connect and build the future of tech together! ✨ #TechEnthusiast #JavaDeveloper #WebDev
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="/assets/downside-arrow-light.gif"
+        src-light="/assets/downside-arrow-light.gif"
+        src-dark="/assets/downside-arrow.gif" alt="arrow-sign" class="icon arrow" onclick="location.href='./#experience' ">
+    </section>
+
+    <!-- about section ends -->
+
+
+
+
+
+    <!-- experiences starts -->
+
+    <section id="experience">
+        <p class="section--text--p1">
+            Explore My
+        </p>
+        <h1 class="title"> Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="experience-subtitles">Web Development</h2> <br>
+                    <div class="article-container">
+                        <article>
+                            <img src="/html-logo.gif" 
+                            src-light="/html-logo.gif "
+                            src-dark=" /html-logo.gif"
+                            alt="HTML"
+                            class="icon">
+                            <div >
+                                <h3>HTML</h3>
+                                <p>Experienced ✅</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img src="/css-logo.gif" 
+                            src-light="/css-logo.gif "
+                            src-dark=" /css-logo.gif"
+                            alt="CSS"
+                            class="icon">
+                            <div >
+                                <h3>CSS</h3>
+                                <p>Experienced ✅</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img src="/bootstrap-logo.gif"
+                            src-light="/bootstrap-logo.gif "
+                            src-dark="/bootstrap-logo.gif"
+                            alt="BOOTSTRAP"
+                            class="icon">
+                            <div >
+                                <h3>BOOTSTRAP</h3>
+                                <p>Experienced ✅</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img src="/javascript-logo.gif" 
+                            src-light="/javascript-logo.gif "
+                            src-dark=" /javascript-logo.gif"
+                            alt="JAVASCRIPT"
+                            class="icon">
+                            <div >
+                                <h3>JAVASCRIPT</h3>
+                                <p>Intermediate ✅</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="/php-logo.gif"
+                            src-light="/php-logo.gif "
+                            src-dark=" /php-logo.gif"
+                            alt="PHP"
+                            class="icon">
+                            <div >
+                                <h3>PHP</h3>
+                                <p>Basic ✅</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img src="/sql=logo.png"
+                            src-light="/sql=logo.png "
+                            src-dark="/sql=logo.png"
+                            alt="SQL"
+                            class="icon">
+                            <div >
+                                <h3>SQL</h3>
+                                <p>Intermediate ✅</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="experience-subtitles">Programming Languages</h2> 
+                    <div class="article-container">
+                        <article>
+                            <img src="/java-logo.gif" 
+                            src-light="/java-logo.gif "
+                            src-dark="/java-logo.gif "
+                            alt="JAVA"
+                            class="icon">
+                            <div >
+                                <h3>JAVA</h3>
+                                <p>Experienced ✅</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img src="/c-logo.gif" 
+                            src-light="/c-logo.gif "
+                            src-dark="/c-logo.gif"
+                            alt="C"
+                            class="icon">
+                            <div >
+                                <h3>C</h3>
+                                <p>Intermediate ✅</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img src="/python-1.gif"
+                            src-light="/python-1.gif "
+                            src-dark="/python-1.gif"
+                            alt="Python"
+                            class="icon">
+                            <div >
+                                <h3>PYTHON</h3>
+                                <p>Intermediate ✅</p>
+                            </div>
+                        </article>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img src="/assets/downside-arrow-light.gif" 
+        src-light="/assets/downside-arrow-light.gif"
+        src-dark="/assets/downside-arrow.gif"alt="arrow-sign" class="icon arrow" onclick="location.href='./#projects' ">
+
+    </section>
+
+    <!-- experience ends -->
+
+
+
+    <!-- projects starts -->
+
+
+    
+
+
+    <section id="projects">
+        <p class="section--text--p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            
+            <div class="about-containers">
+                
+                
+                
+                <div class="details-containers color-container">
+                    <div class="article-container">
+                        <img src="/project-1.png" alt="project-1" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitles project-title">Tin Dog Front-End Project</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href= 'https://github.com/shitalkarek/tindog' ">
+                            Github
+                        </button>
+
+                        <button class="btn btn-color-2 project-btn" onclick="location.href= ' https://tindog-by-shital.netlify.app/' ">
+                            Show Live 
+                        </button>
+
+                        
+                    </div>
+                </div>
+
+                
+                <div class="details-containers color-container">
+                    <div class="article-container">
+                        <img src="/project-2.png" alt="project-2" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitles project-title">Best Project Voting System <br>A-fullstack project</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href= 'https://github.com/shitalkarek/v-system' ">
+                            Github
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-containers color-container">
+                    <div class="article-container">
+                        <img src="/project-3.png" alt="project-3" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitles project-title">Java Based Quiz Web Application</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href= 'https://github.com/shitalkarek/java-quiz-web-application' ">
+                            Github
+                        </button>
+                    </div>
+                </div>
+
+               
+            
+
+
+            </div>
+        </div>
+        <!-- <img src="/down-arrow.jpg" alt="arrow-sign" class="icon arrow" onclick="location.href='./#contact' "> -->
+    <!-- </section>
+
+    <section id="projects"> -->
+       
+        <div class="experience-details-container">
+            
+            <div class="about-containers">
+                
+                <div class="details-containers color-container">
+                    <div class="article-container">
+                        <img src="/project-4.png" alt="project-4" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitles project-title">Portfolio Website</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href= 'https://github.com/shitalkarek/myportfolio-1' ">
+                            Github
+                        </button>
+
+                        <button class="btn btn-color-2 project-btn" onclick="location.href= 'https://shitalwebsite.netlify.app/' ">
+                            Show Live 
+                        </button>
+                    </div>
+                </div>   
+                
+               
+
+                
+                <div class="details-containers color-container">
+                    <div class="article-container">
+                        <img src="/project-5.png" alt="project-5" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitles project-title">Dice Game <br>A-javascript project </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href= 'https://github.com/shitalkarek/dice' ">
+                            Github
+                        </button>
+
+                        <button class="btn btn-color-2 project-btn" onclick="location.href= 'https://shitalkarek.github.io/dice/' ">
+                            Show Live 
+                        </button>
+                       
+                    </div>
+                </div>
+
+                 
+                <div class="details-containers color-container">
+                    <div class="article-container">
+                        <img src="/project-6.png" alt="project-6" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitles project-title">Drum Kit <br> A-javascript project </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href= 'https://github.com/shitalkarek/drumkit' ">
+                            Github
+                        </button>
+
+                        <button class="btn btn-color-2 project-btn" onclick="location.href= 'https://shitalkarek.github.io/drumkit/' ">
+                            Show Live 
+                        </button>
+                       
+                    </div>
+                </div>
+
+              
+
+               
+
+            
+
+
+            </div>
+        </div>
+        <img src="/assets/downside-arrow-light.gif"
+        src-light="/assets/downside-arrow-light.gif"
+        src-dark="/assets/downside-arrow.gif"
+        alt="arrow-sign" class="icon arrow" onclick="location.href='./#contact' ">
+    </section>
+
+
+                        
+     <!-- projects ends -->
+
+
+    <!-- contact starts -->
+
+    <section id="contact">
+        <p class="section--text--p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="/email-logo.gif"
+                src-light="/email-logo.gif"
+                src-dark="/assets/dark=email.gif"
+                 alt="email-icon" class="icon contact-icon">
+                <p><a href="mailto:shitalkarek@gmail.com">Click To MAIL 📩</a></p>
+            </div>
+            
+                <div class="contact-info-container">
+                    <img 
+                    src="/linkedln.png" 
+                    src-light="/assets/dark-link.jpeg"
+                    src-dark="/assets/dark-link.jpeg"
+                    alt="my Linkdln"
+                    class="icon linkedin-icon" onclick="location.href='https://www.linkedin.com/in/shital-karek-1a9789229/'">
+                    <p><a href="https://www.linkedin.com/in/shital-karek-1a9789229/">Lets Connect via Linkedln</a></p>
+                </div>
+            
+            
+        
+            <div class="contact-info-container">
+                <img src="/assets/call-dark.gif" 
+                src-light="/assets/call-dark.gif" 
+                src-dark="/assets/call-dark.gif" 
+                
+                alt="linkdln-icon" class="icon contact-icon">
+                <p><a href="tel:+8235523073">Lets Talk</a></p>
+            </div>
+        
+
+        </div>
+
+        
+
+    </section>
+    <!-- contact ends -->
+
+    <!-- sections ends -->
+
+
+    <!-- footer starts -->
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169 Shital Karek @2024</p>
+    </footer>
+
+    
+    <!-- footers end -->
+    
+    
+   
+    
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
